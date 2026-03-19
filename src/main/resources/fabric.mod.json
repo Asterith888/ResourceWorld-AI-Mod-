@@ -1,26 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "${mod_id}",
-  "name": "${mod_name}",
-  "version": "${mod_version}",
-  "authors": [
-    "${mod_authors}"
-  ],
-  "contact": {
-    "sources": "${mod_repo_url}",
-    "issues": "${mod_repo_url}/issues"
-  },
-  "description": "${mod_description}",
-  "icon": "${mod_logo}",
-  "license": "${mod_license}",
-  "environment": "*",
+  "id": "resourceworld",
+  "version": "1.0.0",
+  "name": "Resource World Mod",
+  "description": "Creates resettable resource dimensions.",
+  "authors": ["Asterith888"],
   "entrypoints": {
+    "main": [
+      "com.asterith.resourceworld.ResourceWorldMod"
+    ]
   },
-  "mixins": [
-    "resource_world.mixins.json"
-  ],
   "depends": {
-    "minecraft": [${supported_minecraft_versions}],
-    "server_i18n_api": ">=1.5"
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.11"
   }
 }
