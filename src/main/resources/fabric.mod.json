@@ -5,14 +5,18 @@
   "name": "Resource World Mod",
   "description": "Creates resettable resource dimensions.",
   "authors": ["Asterith888"],
+  "environment": "server",
   "entrypoints": {
     "main": [
       "com.asterith.resourceworld.ResourceWorldMod"
     ]
   },
+  "mixins": [
+    "resourceworld.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.15.0",
-    "fabric": "*",
+    "fabric-api": "*",
     "minecraft": "1.21.11"
   }
 }
