@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "resourceworld",
+  "id": "resource-world-copilot",
   "version": "1.0.0",
   "name": "Resource World Mod",
   "description": "Creates resettable resource dimensions.",
