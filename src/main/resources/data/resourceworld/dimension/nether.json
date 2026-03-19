@@ -1,1 +1,8 @@
-
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": "minecraft:nether"
+  }
+}
