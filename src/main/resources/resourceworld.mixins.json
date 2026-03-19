@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.asterith.resourceworld",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "WorldSavePathAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
